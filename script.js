@@ -6,5 +6,6 @@ function validateForm() {
     }
     else {
         alert("Используй шифр Атбаш!")
+        setTimeout(function() {window.location = "/index.html" });
     }
   }
