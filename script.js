@@ -1,6 +1,6 @@
 function next() {
-    currentUrl = window.location.href
-    alert(currentUrl)
-    if(currentUrl = 'index.html') nextUrl = '/index2.html'
-    history.pushState('', 'Продолжай', nextUrl)
+    currentPath = window.location.pathname
+    alert(currentPath)
+    if(currentUPath = 'index.html') nextPath = '/index2.html'
+    history.pushState('', 'Продолжай', nextPath)
 }
