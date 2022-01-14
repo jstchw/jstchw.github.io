@@ -50,8 +50,8 @@ input[type='submit'] {
 }
 
 input[type='text'] {
-    height:50px;
-    width: 200px;
-    font-size:30pt;
+    height:70px;
+    width: 350px;
+    font-size:50pt;
     font-family: Manrope;
 }
