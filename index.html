@@ -20,9 +20,13 @@
                     А йрзл юдмг зцнмдт фяф нуъчд, порчоязсдт фяф мд<br>
                     Чя трц шъуясца тъса шыъм рьрсг
                 </p>
+                <hr>
+                <p>Фамилия автора?</p>
             </div>
-
-            <button onclick="next()">Далее</button>
+            <form action="/you_did_it.html" onsubmit="return validateForm()" method='post'>
+                <input type='text' name='text'><br>
+                <input type='submit' name='submission' value="Далее">
+            </form>
         </div>
     </body>
 </html>
