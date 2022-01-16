@@ -3,6 +3,10 @@
     src: url(font/Manrope-VariableFont_wght.ttf);
 }
 
+body {
+    margin-bottom: 20%;
+}
+
 .heading {
     font-size: 5em;
 }
@@ -54,4 +58,8 @@ input[type='text'] {
     width: 350px;
     font-size:50pt;
     font-family: Manrope;
+}
+
+.author {
+    font-size: 0.5em;
 }
