@@ -51,6 +51,7 @@ input[type='submit'] {
     letter-spacing: 2px;
     outline: none;
     font-family: Manrope;
+    -webkit-appearance: none;
 }
 
 input[type='text'] {
