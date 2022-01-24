@@ -3,6 +3,16 @@
     src: url(font/Manrope-VariableFont_wght.ttf);
 }
 
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 0.5em;
+    }
+
+    input[type='text'] {
+        padding: 10px;
+    }
+}
+
 body {
     margin-bottom: 20%;
 }
