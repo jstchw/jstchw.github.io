@@ -1,4 +1,4 @@
-const start = new Date('2022-02-14T23:00:00')
+const start = new Date('2021-12-31T00:00:00')
 let now = new Date()
 
 document.querySelectorAll('.dating-since').forEach(function(el) {
