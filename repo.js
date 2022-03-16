@@ -1,20 +1,23 @@
+const datingSince = document.querySelectorAll('.dating-since')
+const days = document.querySelectorAll('.days')
+
 const start = new Date('2021-12-31T00:00:00')
 let now = new Date()
 
-document.querySelectorAll('.dating-since').forEach(function(el) {
+datingSince.forEach(function(el) {
     el.innerHTML = getDiffDays();
 });
 
 if (/[1$]$/.test(getDiffDays())) {
-    document.querySelectorAll('.days').forEach(function(el) {
+    days.forEach(function(el) {
         el.innerHTML = ' день';
     });
 } else if(/[234]$/.test(getDiffDays())) {
-    document.querySelectorAll('.days').forEach(function(el) {
+    days.forEach(function(el) {
         el.innerHTML = ' дня';
     });
 } else if(/[567890]$/.test(getDiffDays())){
-    document.querySelectorAll('.days').forEach(function(el) {
+    days.forEach(function(el) {
         el.innerHTML = ' дней';
     });
 }
