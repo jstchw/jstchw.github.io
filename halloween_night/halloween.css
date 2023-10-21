@@ -17,7 +17,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .text {
@@ -25,7 +25,7 @@ body {
 }
 
 .other-text {
-    font-size: 1em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -46,6 +46,6 @@ body {
     padding: 0.5em;
     margin: 1em 0.5em 0.5em;
     color: white;
-    font-size: 2.5em;
+    font-size: 5em;
     cursor: pointer;
 }
